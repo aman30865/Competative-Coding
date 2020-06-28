@@ -23,11 +23,12 @@ For each test case, print a single line containing one integer ― the amount of
 ## Answer
   <pre>t = int(input())
   for _ in range(t)):
-  n,m = map(int,input().split())
+    #get the inputs
+    n,m = map(int,input().split())
     pro = list(map(int,input().split()))
     sum = 0
     for i in pro:
         if i>m:
-            sum += (i-m)
+            sum += (i-m) #takes the sum of all the losses due to price ceiling
     print(sum)
     t -= 1 </pre>
