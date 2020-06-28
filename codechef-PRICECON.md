@@ -15,10 +15,11 @@ The second line contains N space-separated integers P1,P2,…,PN.
 For each test case, print a single line containing one integer ― the amount of lost revenue.
 
 #### Constraints
-1≤T≤100
-1≤N≤10,000
-1≤Pi≤1,000 for each valid i
-1≤K≤1,000
+
+1≤T≤100 
+1≤N≤10,000 
+1≤Pi≤1,000 for each valid i 
+1≤K≤1,000 
 
 ## Answer
   <pre>t = int(input())
