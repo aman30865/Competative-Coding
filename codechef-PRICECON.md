@@ -1,4 +1,4 @@
-## Codechef long contest JUNE2020
+# Codechef long contest JUNE2020
 ### Chef and Price Control
 
 Chef has N items in his shop (numbered 1 through N); for each valid i, the price of the i-th item is Pi. Since Chef has very loyal customers, all N items are guaranteed to be sold regardless of their price.
