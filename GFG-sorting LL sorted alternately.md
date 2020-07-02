@@ -15,6 +15,7 @@ Given a Linked list of size N, the list is in alternating ascending and descendi
 ### Answer
 
 def sort(h1):
+
     read = h1
     write = h1
     datai = []
