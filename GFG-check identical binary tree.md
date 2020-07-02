@@ -19,4 +19,13 @@ def isIdentical(root1, root2):
         return True
     else:
         return False
+#### Alt. Answer
+def isIdentical(root1,root2):
     
+    def isIdentical(root1, root2):
+    
+    if root1 == None and root2 == None:
+        return True
+    if root1 and root2:
+        return (True if root1.data == root2.data else False) and isIdentical(root1.left,root2.left) and isIdentical(root1.right,root2.right)
+    return False
